@@ -11,5 +11,8 @@ python 3, psycopg2, postgresql
 
 
 ##Hot to test it:
+1. Create tables:
+	psql < tournament.sql
+2. Run the test:
 	python tournament_test.py
 
